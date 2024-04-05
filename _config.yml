@@ -26,7 +26,7 @@ minimal_mistakes_skin: "air"
 
 #locale: "en-US"
 title: "SkyThrow"
-title_separator: "-"
+title_separator: "|"
 subtitle: "bluesky posting only client"
 description: >- # this means to ignore newlines until "baseurl:"
   「SkyThrow」は投稿専用のblueskyクライアントです。
@@ -69,15 +69,20 @@ footer:
       url: "https://github.com/hidea"
     - label: "Privacy Policy"
       icon: "fas fa-fw fa-file-alt"
-      url: "/privacy-policy/"
+      url: "https://hidea.github.io/skythrow/privacy-policy/"
     - label: "Terms of Service"
       icon: "fas fa-fw fa-file-alt"
-      url: "/tos/"
+      url: "https://hidea.github.io/skythrow/tos/"
 
 include:
   - .htaccess
   - _pages
-  - _helpdocs
+  - _help
+
+collections:
+  help:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -91,6 +96,18 @@ defaults:
       comments: false
       share: true
       related: true
+  # _help
+  - scope:
+      path: ""
+      type: help
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "help"
 
 timezone: Asia/Tokyo
 

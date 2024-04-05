@@ -1,8 +1,0 @@
----
-layout: single
-title:  "Author | 作者"
-author: hidea
-author_profile: true
----
-
-

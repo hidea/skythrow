@@ -7,3 +7,23 @@ main:
     url: /feedback/
   - title: "Help"
     url: /help/
+
+help:
+  - title: "Install"
+    url: /help/install/
+  - title: "Tutorial"
+    children:
+      - title: "Multi Account"
+        url: /help/multi-account/
+      - title: "#hashtag"
+        url: /help/hashtag/
+      - title: "& more"
+        url: /help/and-more/
+  - title: "Terms & Privacy Policy"
+    children:
+      - title: "Terms of Service"
+        url: /tos/
+      - title: "Privacy Policy"
+        url: /privacy-policy/
+  - title: "Feedback"
+    url: /feedback/

@@ -1,0 +1,9 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "News"
+    url: /news/
+  - title: "Feedback"
+    url: /feedback/
+  - title: "Help"
+    url: /help/

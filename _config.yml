@@ -18,23 +18,85 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SkyThrow
-email: jca03271@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-domain: hidea.github.io
-baseurl: "/skythrow" # the subpath of your site, e.g. /blog
-url: "https://hidea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-bluesky_username: hidea.bsky.social
-twitter_username: hidea
-github_username:  hidea
-
 # Build settings
-theme: minima
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+
+#locale: "en-US"
+title: "SkyThrow"
+title_separator: "-"
+subtitle: "bluesky posting only client"
+description: >- # this means to ignore newlines until "baseurl:"
+  「SkyThrow」は投稿専用のblueskyクライアントです。
+  iOS版を現在リリース準備中です。
+  "SkyThrow" is a bluesky client for posting only.
+  The iOS version is currently being prepared for release.
+url: "https://hidea.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/skythrow" # the subpath of your site, e.g. /blog
+repository: "hidea/skythrow" # GitHub username/repo-name of your site
+teaser: "/assets/images/500x300.png"
+logo: "/assets/images/88x88.png"
+
+# Social Sharing
+twitter:
+  username               :
+og_image: "/assets/images/1200x630.png"
+
+author:
+  name: "SkyThrow"
+  avatar: "/assets/images/88x88.png"
+  bio: >-
+    "SkyThrow" is a bluesky client for posting only. The iOS ver. is currently being prepared for release.
+    「SkyThrow」は投稿専用のblueskyクライアントです。現在、iOS版をリリース準備中。<br>
+  location: "Chiba,Japan"
+  links:
+    - label: "bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/skythrow.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hidea"
+
+footer:
+  links:
+    - label: "bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/skythrow.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hidea"
+    - label: "Privacy Policy"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/privacy-policy/"
+    - label: "Terms of Service"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/tos/"
+
+include:
+  - .htaccess
+  - _pages
+  - _helpdocs
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: true
+
+timezone: Asia/Tokyo
+
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -19,6 +19,8 @@ help:
         url: /help/hashtag/
       - title: "& more"
         url: /help/and-more/
+      - title: "Limit"
+        url: /help/limit/
   - title: "Terms & Privacy Policy"
     children:
       - title: "Terms of Service"

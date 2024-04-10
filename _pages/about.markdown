@@ -10,8 +10,8 @@ author_profile: true
 
 "SkyThrow" is a "post-only" client for the social network service "[Bluesky](https://bsky.app/)".
 It aims to make posting more convenient with multiple accounts, hashtags, and other features.<br />
-「SkyThrow」は、ソーシャルネットワークサービス「[Bluesky](https://bsky.app/)」向けの「投稿専用」クライアントです。
-複数のアカウント、ハッシュタグ等を機能に、より便利に投稿できることを目指しています。
+「SkyThrow」は、ソーシャルネットワーク「[Bluesky](https://bsky.app/)」向けの「投稿専用」クライアントアプリです。
+複数のアカウントの管理と切り替え、ハッシュタグ等の入力を機能的にして、Blueskyへの投稿をより手軽にすることを目指しています。
 
 "[Help]({{ "/help" | relative_url }})" page is still under construction, but if you have any questions, please feel free to contact us via "[Feedback]({{ "/feedback" | relative_url }})".<br />
 「[ヘルプ]({{ "/help" | relative_url }})」ページはまだ鋭意作成中となりますが、ご不明な点がありましたら「[フィードバック]({{ "/feedback" | relative_url }})」よりお気軽にお問い合わせください。
@@ -21,7 +21,7 @@ It aims to make posting more convenient with multiple accounts, hashtags, and ot
 👈 Please see sidebar.  
 👈 がそうです。
 
-👇 Other services in which the creator is involved.
+👇 Other services in which the creator is involved.  
 👇 制作者が関わっている他のサービスです。
 
 * [新刊.net (new-book net)](https://sinkan.net/)  

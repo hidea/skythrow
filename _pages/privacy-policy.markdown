@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /privacy-policy/
-title: "Privacy Policy - プライバシーポリシー"
+title: "Privacy Policy ／プライバシーポリシー"
 author_profile: true
 ---
 

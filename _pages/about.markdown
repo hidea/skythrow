@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-title: "About - アプリについて"
+title: "About ／アプリについて"
 author: hidea
 author_profile: true
 ---
@@ -16,7 +16,7 @@ It aims to make posting more convenient with multiple accounts, hashtags, and ot
 "[Help]({{ "/help" | relative_url }})" page is still under construction, but if you have any questions, please feel free to contact us via "[Feedback]({{ "/feedback" | relative_url }})".<br />
 「[ヘルプ]({{ "/help" | relative_url }})」ページはまだ鋭意作成中となりますが、ご不明な点がありましたら「[フィードバック]({{ "/feedback" | relative_url }})」よりお気軽にお問い合わせください。
 
-## Creator - 制作者
+## Creator ／制作者
 
 👈 Please see sidebar.  
 👈 がそうです。

@@ -1,7 +1,6 @@
 ---
 permalink: /help/
-title: "Help - ヘルプ"
+title: "Help ／ヘルプ"
 ---
 
-Under construction.  
-工事中
+{% include nav_list nav="help" %}

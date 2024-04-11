@@ -9,23 +9,35 @@ main:
     url: /help/
 
 help:
-  - title: "Install"
+  - title: "Install<br />／インストール"
     url: /help/install/
-  - title: "Tutorial"
+  - title: "Features"
     children:
-      - title: "Multi Account"
+      - title: "Multi Account<br />／複数アカウント"
         url: /help/multi-account/
-      - title: "#hashtag"
+      - title: "#hashtag support<br />／ハッシュタグ サポート"
         url: /help/hashtag/
-      - title: "& more"
+      - title: "& more<br />／今後の予定"
         url: /help/and-more/
-      - title: "Limit"
+  - title: "Using SkyThrow"
+    children:
+      - title: "Sign In<br />／サインイン"
+        url: /help/signin/
+      - title: "Accounts<br />／アカウント"
+        url: /help/accounts/
+      - title: "Post<br />／投稿"
+        url: /help/post/
+      - title: "Edit #hashtag<br />／ハッシュタグ編集"
+        url: /help/edit-hashtag/
+      - title: "Settings<br />／設定"
+        url: /help/settings/
+      - title: "Limit<br />／制限"
         url: /help/limit/
   - title: "Terms & Privacy Policy"
     children:
-      - title: "Terms of Service"
+      - title: "Terms of Service<br />／利用規約"
         url: /tos/
-      - title: "Privacy Policy"
+      - title: "Privacy Policy<br />／プライバシーポリシー"
         url: /privacy-policy/
-  - title: "Feedback"
+  - title: "Feedback<br />／フィードバック"
     url: /feedback/

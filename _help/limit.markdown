@@ -1,6 +1,6 @@
 ---
 permalink: /help/limit/
-title: "Limit - 制限"
+title: "Limit ／制限"
 ---
 
 Currently, SkyThrow has the following upper limit.

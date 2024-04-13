@@ -31,6 +31,8 @@ help:
         url: /help/edit-hashtag/
       - title: "Settings<br />／設定"
         url: /help/settings/
+      - title: "Share<br />／共有"
+        url: /help/share/
       - title: "Limit<br />／制限"
         url: /help/limit/
   - title: "Terms & Privacy Policy"

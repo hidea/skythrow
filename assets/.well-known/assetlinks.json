@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rukari.skythrowApp",
+      "sha256_cert_fingerprints": [
+        "54:B7:E5:DE:6C:A8:6B:35:57:4C:C7:2F:C7:08:BE:FC:21:B9:E8:BF:F4:9E:44:F3:0B:16:91:CA:F4:28:BD:CE"
+      ]
+    }
+  }
+]

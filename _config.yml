@@ -79,6 +79,7 @@ include:
   - .htaccess
   - _pages
   - _help
+  - .well-known
 
 collections:
   help:

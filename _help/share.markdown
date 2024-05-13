@@ -6,7 +6,7 @@ title: "Share ／共有"
 You can share posts to other apps before posting to Bluesky.  
 We have confirmed that you can share to 𝕏 (formerly Twitter) and LINE Talk with a photo.  
 Conversely, sharing to Facebook, Threads, Instagram, etc. is limited and unstable. Sharing of posts that do not include photos, posts that include multiple photos, or conversely posts that include text may not work.  
-Bluesky へ投稿する前の投稿を他のアプリへ共有することができます。  
+Bluesky へ投稿する前の投稿を他のアプリへ共有できます。  
 𝕏（旧Twitter）、LINEトークへ写真付きで共有ができることを確認済みです。  
 逆に Facebook、Threads、Instagram などへの共有は制限があり安定しません。写真を含まない投稿や複数枚の写真を含んだ投稿、逆にテキストを含む投稿の共有はうまくできない場合があります。
 

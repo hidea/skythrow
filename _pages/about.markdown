@@ -22,7 +22,8 @@ It aims to make posting more convenient with multiple accounts, hashtags, and ot
 👈 がそうです。
 
 👇 Other services in which the creator is involved.  
-👇 制作者が関わっている他のサービスです。
+👇 制作者がrukari、もしくは個人で関わっている他のサービスです。
+👇 rukariは、適当に緩くプロダクトをつくっているふたり集団です。
 
 * [新刊.net (new-book net)](https://sinkan.net/)  
 New publication release date checker (Japan only)  

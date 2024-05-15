@@ -6,15 +6,14 @@ header:
   overlay_color: "#005ce1"
   overlay_image: /assets/images/home-future.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Android ver. available"
+    - label: "<i class='fas fa-download'></i> Install App"
       url: "/help/install"
 excerpt: >
   Bluesky client for posting only.<br />
   Multi account and #hashtag support makes posting more functional.<br />
   投稿専用の Bluesky クライアントです。<br />
   マルチアカウント、#ハッシュタグ 等の投稿をより手軽に。<br /> 
-  <small>Android ver. is now available.</small>
-  <small>iOS ver. release soon.</small>
+  <small>iOS / Android app now available.</small>
 feature_row:
   - image_path: /assets/images/home-multiaccount-feature.png
     alt: "Multi account"
@@ -39,7 +38,7 @@ feature_row:
     title: "& more..."
     excerpt: >
       Plans include location, image editing, themes for each account, and reserved postings.<br />
-      位置、画像編集、アカウント毎のテーマ、予約投稿などの機能追加を予定しています。
+      位置、画像編集、予約投稿などの機能追加を予定しています。
     url: "/help/and-more/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      

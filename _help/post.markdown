@@ -10,6 +10,11 @@ blueskyへの投稿に必要な最低限の機能を提供します。
 
 <img src="{{ "/assets/images/screenshot/post.png" | relative_url }}" alt="image" width="300">
 
+Image editing (scaling, clipping, and rotation) is also supported.  
+画像編集（拡縮、クリッピング、回転）にも対応しました。
+
+<img src="{{ "/assets/images/screenshot/imageedit.png" | relative_url }}" alt="image" width="300">
+
 
 Under construction.  
 工事中

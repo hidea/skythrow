@@ -37,6 +37,8 @@ help:
         url: /help/limit/
   - title: "Terms & Privacy Policy"
     children:
+      - title: "Release notes<br />／リリースノート"
+        url: /help/release-notes/
       - title: "Terms of Service<br />／利用規約"
         url: /tos/
       - title: "Privacy Policy<br />／プライバシーポリシー"

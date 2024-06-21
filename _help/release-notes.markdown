@@ -72,8 +72,8 @@ title: "Release notes ／リリースノート"
   - Support for account switching on the post screen
   - Support for color themes for each account
   - Support for search and sorting on the tag edit and selection screens
-  - iOS版、新規リリース
 
+  - iOS版、新規リリース
   - 他アプリへの共有時の問題を修正
   - 他アプリからの共有時の問題を修正
   - アルバムからの画像選択枚数制限に対応

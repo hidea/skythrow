@@ -3,6 +3,25 @@ permalink: /help/release-notes/
 title: "Release notes ／リリースノート"
 ---
 
+- 2024.8.6 ver.1.2.3
+  - Link card previews are now generated when input URL
+  - Fixed link card gen failing for some sites
+  - Changed text of confirmation to return to home after posting
+  - Added QR code generation to profile in account submenu
+  - Added search for recent used hashtags
+  - Changed hashtag search to not distinguish between katakana & hiragana
+  - Changed close keyboard on touch of tag list during hashtag search
+  - Changed UI of bottom sheets and added a done button
+
+  - リンクカードのプレビューをURL入力時に生成するように
+  - 一部サイトのリンクカード生成に失敗する問題を修正
+  - 投稿後のホームに戻る確認の文言を変更
+  - アカウントのサブメニューにプロフィールへのQRコード生成機能を追加
+  - よく使うハッシュタグに検索枠を追加
+  - ハッシュタグ検索時にカタカナ・ひらがなを区別しないよう変更
+  - ハッシュタグ検索中にタグ一覧のタッチでキーボードを閉じるよう変更
+  - 各種ボトムシートのUIを変更して完了ボタンを追加
+
 - 2024.6.21 ver.1.2.2
   - Sign-in supports "hosting providers" other than bsky.social
   - Improved link card generation for sites configured in non UTF-8 encodings

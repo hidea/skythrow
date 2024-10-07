@@ -3,4 +3,7 @@ layout: plain
 permalink: /feedback/
 title: "Feedback ／フィードバッグ"
 ---
-{% include feedback.html %}
+
+## Feedback form ／ フィードバック フォーム
+
+[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeQtF-QiNQncCvUwhO33Jy1FSzj4W89GWasEOxGpm5ztks32A/viewform)

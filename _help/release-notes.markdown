@@ -3,6 +3,20 @@ permalink: /help/release-notes/
 title: "Release notes ／リリースノート"
 ---
 
+- 2024.10.17 ver.1.3.0
+  - Support video.
+  - Support for setting up quoted post.
+  - Modified progress indicator when posting.
+  - Problem solved where go dark when adding an account that not verified email.
+  - Fixed an issue where sometimes failed sharing to other apps on iOS18.
+  
+  - ビデオの投稿に対応
+  - 引用投稿の設定に対応
+  - 投稿時の進行表示を改修
+  - 投稿テキストの先頭が全角空白だとカーソル位置がおかしくなる問題が解消
+  - メール認証されていないアカウントを追加する時に暗転する問題が解消
+  - iOS18で他アプリへの共有時に誤動作することがあった問題を修正
+
 - 2024.8.6 ver.1.2.3
   - Link card previews are now generated when input URL
   - Fixed link card gen failing for some sites

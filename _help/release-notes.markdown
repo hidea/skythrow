@@ -3,6 +3,18 @@ permalink: /help/release-notes/
 title: "Release notes ／リリースノート"
 ---
 
+- 2024.10.22 ver.1.3.1
+  - Fixed problem with screen going dark when sign-in fails
+  - Fixed where posting freezes if link card generation fails
+  - Added support for signing in with an account that omits the domain of the hosting provider
+  - Added descending order for sorting on hashtag input and edit
+
+  - サインインに失敗すると画面が暗転して操作不能になる問題を修正
+  - リンクカード生成に失敗すると投稿がフリーズする問題を修正
+  - 一部のリンクカードが文字化けする問題を修正
+  - ホスティングプロバイダのドメイン名を省略したアカウントでのサインインに対応
+  - ハッシュタグ入力・編集画面でのソートに降順を追加
+
 - 2024.10.17 ver.1.3.0
   - Support video.
   - Support for setting up quoted post.

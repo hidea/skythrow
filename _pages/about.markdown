@@ -18,8 +18,8 @@ It aims to make posting more convenient with multiple accounts, hashtags, and ot
 
 ## Creator ／制作者
 
-👈 Please see sidebar.  
-👈 がそうです。
+👈 Please see sidebar(or top banner).  
+👈 サイド（もしくは上部）がそうです。
 
 👇 Other services in which the creator is involved.  
 👇 制作者がrukari、もしくは個人で関わっている他のサービスです。

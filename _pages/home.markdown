@@ -20,7 +20,7 @@ feature_row:
     title: "Multi account"
     excerpt: >
       Multiple accounts can be registered and switched with a single tap on the home page.<br />
-      複数のアカウントを管理して、タップひとつで切り替えられます。
+      複数のアカウントを管理して、タップひとつで切り替えることができます。。
     url: "/help/multi-account/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -37,8 +37,8 @@ feature_row:
     alt: "& more..."
     title: "& more..."
     excerpt: >
-      Plans include location, image editing, themes for each account, and reserved postings.<br />
-      位置、画像編集、予約投稿などの機能追加を予定しています。
+      Plans include location, themes for each account, and reserved postings.<br />
+      位置、予約投稿などの機能追加を予定しています。
     url: "/help/and-more/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      

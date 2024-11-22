@@ -5,5 +5,8 @@ title: "News ／お知らせ"
 author_profile: true
 ---
 
-Under construction.  
-工事中
+Offical account
+https://bsky.app/profile/skythrow.com
+
+The latest information on SkyThrow will be announced on the Bluesky account.
+SkyThrowの最新情報はBlueskyのアカウントでお知らせします。

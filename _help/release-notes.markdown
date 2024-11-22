@@ -3,6 +3,15 @@ permalink: /help/release-notes/
 title: "Release notes ／リリースノート"
 ---
 
+- 2024.11.24 ver.1.3.2
+  - Supports “Graphic Media” content warning label.
+  - Removes Exif that was sometimes added to images.
+  - Android: Fixed where the Video review sometimes rotated.
+
+  - コンテンツの警告ラベル「生々しいメディア」に対応
+  - 一部画像に付与されることがあったExif情報を削除
+  - Android: ビデオのレビュー表示が回転することがあった問題を修正
+
 - 2024.10.22 ver.1.3.1
   - Fixed problem with screen going dark when sign-in fails
   - Fixed where posting freezes if link card generation fails

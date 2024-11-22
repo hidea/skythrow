@@ -6,7 +6,7 @@ title: "Sign in ／サインイン"
 Sign in to your "[Bluesky](https://bsky.app/)" account already created on the official site on the home screen.  
 You can register "multiple accounts" and switch between them with a tap.
 ホーム画面で既に公式サイトで作られている「[Bluesky](https://bsky.app/)」のアカウントにサインインします。  
-「複数アカウント」を登録して、タップひとつで切り替えられます。
+「複数アカウント」を登録して、タップひとつで切り替えることができます。。
 
 Sign in from "Add an existing account" on the home screen.  
 Currently, the only supported hosting provider is the official "bsky.social".

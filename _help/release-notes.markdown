@@ -3,6 +3,19 @@ permalink: /help/release-notes/
 title: "Release notes ／リリースノート"
 ---
 
+- 2024.12.18 ver.1.3.3
+  - Add aspect ratio for image and video displayed official client.
+  - Add support content warnings to link card.
+  - Improve of recent used hashtags.
+  - Fix a typo in setting title.
+  - Android: Fix back button devices confirms that the post will be deleted.
+
+  - 公式クライアントで表示される画像、ビデオのアスペクト比情報を付与
+  - リンクカードへのコンテンツ警告の付与に対応
+  - よく使うハッシュタグの処理を改善
+  - 設定画面のタイトルのtypoを修正
+  - Android: 戻る操作で投稿の破棄を確認するよう修正
+
 - 2024.11.24 ver.1.3.2
   - Supports “Graphic Media” content warning label.
   - Removes Exif that was sometimes added to images.

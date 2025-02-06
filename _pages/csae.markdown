@@ -1,5 +1,5 @@
 ---
-permalink: /tos/
+permalink: /csae/
 layout: single
 title: "Child Sexual Abuse and Exploitation Policy ／児童の性的虐待および搾取に関するポリシー"
 author_profile: true

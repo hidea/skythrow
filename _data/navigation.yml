@@ -43,5 +43,7 @@ help:
         url: /tos/
       - title: "Privacy Policy<br />／プライバシーポリシー"
         url: /privacy-policy/
+      - title: "CSAE Policy<br />／CSAEポリシー"
+        url: /csae/
   - title: "Feedback<br />／フィードバック"
     url: /feedback/

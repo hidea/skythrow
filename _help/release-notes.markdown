@@ -1,6 +1,6 @@
 ---
 permalink: /help/release-notes/
-title: "Release notes ／リリースノート"
+title: "Release notes／リリースノート"
 ---
 
 - 2024.12.18 ver.1.3.3

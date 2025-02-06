@@ -1,6 +1,6 @@
 ---
 permalink: /help/post/
-title: "Post ／投稿"
+title: "Post／投稿"
 ---
 
 Post languages, Who can reply, Add image's alt and a content warning ..., 

@@ -1,6 +1,6 @@
 ---
 permalink: /help/install/
-title: "Install ／インストール" 
+title: "Install／インストール" 
 ---
 
 {: align="center"}

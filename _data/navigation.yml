@@ -9,41 +9,41 @@ main:
     url: /help/
 
 help:
-  - title: "Install<br />／インストール"
+  - title: "Install／インストール"
     url: /help/install/
   - title: "Features"
     children:
-      - title: "Multi Account<br />／複数アカウント"
+      - title: "Multi Account／複数アカウント"
         url: /help/multi-account/
-      - title: "#hashtag support<br />／ハッシュタグ サポート"
+      - title: "#hashtag support／ハッシュタグ サポート"
         url: /help/hashtag/
-      - title: "& more<br />／今後の予定"
+      - title: "& more／今後の予定"
         url: /help/and-more/
   - title: "Using SkyThrow"
     children:
-      - title: "Sign In<br />／サインイン"
+      - title: "Sign In／サインイン"
         url: /help/signin/
-      - title: "Accounts<br />／アカウント"
+      - title: "Accounts／アカウント"
         url: /help/accounts/
-      - title: "Post<br />／投稿"
+      - title: "Post／投稿"
         url: /help/post/
-      - title: "Edit #hashtag<br />／ハッシュタグ編集"
+      - title: "Edit #hashtag／ハッシュタグ編集"
         url: /help/edit-hashtag/
-      - title: "Settings<br />／設定"
+      - title: "Settings／設定"
         url: /help/settings/
-      - title: "Share<br />／共有"
+      - title: "Share／共有"
         url: /help/share/
-      - title: "Limit<br />／制限"
+      - title: "Limit／制限"
         url: /help/limit/
   - title: "Terms & Privacy Policy"
     children:
-      - title: "Release notes<br />／リリースノート"
+      - title: "Release notes／リリースノート"
         url: /help/release-notes/
-      - title: "Terms of Service<br />／利用規約"
+      - title: "Terms of Service／利用規約"
         url: /tos/
-      - title: "Privacy Policy<br />／プライバシーポリシー"
+      - title: "Privacy Policy／プライバシーポリシー"
         url: /privacy-policy/
-      - title: "CSAE Policy<br />／CSAEポリシー"
+      - title: "CSAE Policy／CSAEポリシー"
         url: /csae/
-  - title: "Feedback<br />／フィードバック"
+  - title: "Feedback／フィードバック"
     url: /feedback/

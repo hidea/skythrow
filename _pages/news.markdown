@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /news/
-title: "News ／お知らせ"
+title: "News／お知らせ"
 author_profile: true
 ---
 

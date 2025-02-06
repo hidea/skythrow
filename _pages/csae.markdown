@@ -1,7 +1,7 @@
 ---
 permalink: /csae/
 layout: single
-title: "Child Sexual Abuse and Exploitation Policy ／児童の性的虐待および搾取に関するポリシー"
+title: "Child Sexual Abuse and Exploitation Policy／児童の性的虐待および搾取に関するポリシー"
 author_profile: true
 ---
 # Child Sexual Abuse and Exploitation (CSAE) Policy

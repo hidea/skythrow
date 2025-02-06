@@ -1,6 +1,6 @@
 ---
 permalink: /help/multi-account/
-title: "Multi account ／複数アカウント"
+title: "Multi account／複数アカウント"
 ---
 
 Multiple accounts can be registered and switched with a single tap on the home page.  

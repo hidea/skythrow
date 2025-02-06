@@ -1,6 +1,6 @@
 ---
 permalink: /help/signin/
-title: "Sign in ／サインイン"
+title: "Sign in／サインイン"
 ---
 
 Sign in to your "[Bluesky](https://bsky.app/)" account already created on the official site on the home screen.  

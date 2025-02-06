@@ -3,14 +3,14 @@ hidea:
   name: "hidea"
   avatar: "/assets/images/bio-photo.jpg"
   bio: >-
-    rukari所属, 
-    Software Development, Cycling(Brevet), Penguin(Visited all 127parks in Japan), YuruCamp, UmaMusume etc.  location: "Chiba,Japan"
-    ソフトウェア開発、自転車(ブルベ)、ペンギン(日本国内全127園館全訪問)、ゆるキャン、ウマ娘 etc.
+    rukari, 
+    Software Development, Cycling(Brevet), Penguin(Visited all 127parks in Japan), YuruCamp, UmaMusume etc.
+    / ソフトウェア開発、自転車(ブルベ)、ペンギン(日本国内全127園館全訪問)、ゆるキャン、ウマ娘 etc.
   links:
     - label: "rukari.com"
       icon: "fab fa-fw fa-home"
       url: "https://rukari.com"
-    - label: "bluesky"
+    - label: "@hidea.bsky.social"
       icon: "fab fa-fw fa-bluesky"
       url: "https://bsky.app/profile/hidea.bsky.social"
     - label: "GitHub"

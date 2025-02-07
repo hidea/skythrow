@@ -1,6 +1,6 @@
 ---
 permalink: /help/history/
-title: "Edit #hashtag – ハッシュタグ編集"
+title: "History – 履歴"
 ---
 
 Under construction.  

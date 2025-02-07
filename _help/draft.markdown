@@ -1,6 +1,6 @@
 ---
 permalink: /help/draft/
-title: "Edit #hashtag – ハッシュタグ編集"
+title: "Draft – 下書き"
 ---
 
 Under construction.  

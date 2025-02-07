@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Welcome to SkyThrow／SkyThrow へようこそ"
+title:  "Welcome to SkyThrow – SkyThrow へようこそ"
 categories: 
   - news
 tags:

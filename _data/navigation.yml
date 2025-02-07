@@ -9,41 +9,47 @@ main:
     url: /help/
 
 help:
-  - title: "Install／インストール"
+  - title: "Install – インストール"
     url: /help/install/
   - title: "Features"
     children:
-      - title: "Multi Account／複数アカウント"
+      - title: "Multi Account – 複数アカウント"
         url: /help/multi-account/
-      - title: "#hashtag support／ハッシュタグ サポート"
+      - title: "#hashtag – ハッシュタグ"
         url: /help/hashtag/
-      - title: "& more／今後の予定"
+      - title: "Share – 共有"
+        url: /help/share-shared/
+      - title: "& more – 今後の予定"
         url: /help/and-more/
   - title: "Using SkyThrow"
     children:
-      - title: "Sign In／サインイン"
+      - title: "Sign In – サインイン"
         url: /help/signin/
-      - title: "Accounts／アカウント"
+      - title: "Accounts – アカウント"
         url: /help/accounts/
-      - title: "Post／投稿"
+      - title: "Post – 投稿"
         url: /help/post/
-      - title: "Edit #hashtag／ハッシュタグ編集"
+      - title: "Hashtags – ハッシュタグ"
         url: /help/edit-hashtag/
-      - title: "Settings／設定"
-        url: /help/settings/
-      - title: "Share／共有"
+      - title: "Draft – 下書き"
+        url: /help/draft/
+      - title: "History – 履歴"
+        url: /help/history/
+      - title: "Share – 共有"
         url: /help/share/
-      - title: "Limit／制限"
+      - title: "Settings – 設定"
+        url: /help/settings/
+      - title: "Limits – 制限"
         url: /help/limit/
   - title: "Terms & Privacy Policy"
     children:
-      - title: "Release notes／リリースノート"
+      - title: "Release notes"
         url: /help/release-notes/
-      - title: "Terms of Service／利用規約"
+      - title: "Terms of Service"
         url: /tos/
-      - title: "Privacy Policy／プライバシーポリシー"
+      - title: "Privacy Policy"
         url: /privacy-policy/
-      - title: "CSAE Policy／CSAEポリシー"
+      - title: "CSAE Policy"
         url: /csae/
-  - title: "Feedback／フィードバック"
+  - title: "Feedback – 問い合わせ"
     url: /feedback/

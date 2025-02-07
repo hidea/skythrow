@@ -1,7 +1,7 @@
 ---
 permalink: /tos/
 layout: single
-title: "Terms of Service／利用規約"
+title: "Terms of Service – 利用規約"
 author_profile: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 permalink: /help/accounts/
-title: "Accounts／アカウント"
+title: "Accounts – アカウント"
 ---
 
 Under construction.  

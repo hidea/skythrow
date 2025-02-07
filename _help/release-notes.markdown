@@ -1,7 +1,26 @@
 ---
 permalink: /help/release-notes/
-title: "Release notes／リリースノート"
+title: "Release notes – リリースノート"
 ---
+
+- 2025.2.7 ver.1.4.0
+  - Added “Drafts”
+  - Added “History”
+      - Quote or Reply from history
+      - Pinned a specific history
+  - “Quote” and “Reply” from Bluesky post pasting or sharing
+  - Changed some popup menus to bottom sheet
+  - Changed emoji font
+  - Revamped the overall layout
+
+  - 「下書き」を追加
+  - 「履歴」を追加
+      - 履歴から引用、返信ができます
+      - 特定の履歴をピン留めして固定できる
+  - Blueskyの投稿のペースト、共有から「引用」「返信」できるように
+  - いくつかのポップアップメニューをボトムシートに変更
+  - emojiフォントの変更
+  - 全体的なレイアウトの改修
 
 - 2024.12.18 ver.1.3.3
   - Add aspect ratio for image and video displayed official client.

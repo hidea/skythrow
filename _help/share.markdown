@@ -1,6 +1,6 @@
 ---
 permalink: /help/share/
-title: "Share／共有"
+title: "Share – 共有"
 ---
 
 You can share posts to other apps before posting to Bluesky.  

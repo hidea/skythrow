@@ -19,7 +19,7 @@ feature_row:
     alt: "Multi account"
     title: "Multi account"
     excerpt: >
-      Multiple accounts can be registered and switched with a single tap on the home page.<br />
+      Multiple accounts can be registered and switched with a single tap on the home page.<br /><br />
       複数のアカウントを管理して、タップひとつで切り替えることができます。。
     url: "/help/multi-account/"
     btn_class: "btn--primary"
@@ -28,7 +28,7 @@ feature_row:
     alt: "#hashtag"
     title: "#hashtag support"
     excerpt: >
-      Manage hashtags to ease the entry of frequently used ones.<br />
+      Manage hashtags to ease the entry of frequently used ones.<br /><br />
       よく使うハッシュタグを登録して、投稿毎に簡単に入力できます。
     url: "/help/hashtag/"
     btn_class: "btn--primary"
@@ -37,7 +37,7 @@ feature_row:
     alt: "& more..."
     title: "& more..."
     excerpt: >
-      Plans include location, themes for each account, and reserved postings.<br />
+      Plans include location, themes for each account, and reserved postings.<br /><br />
       位置、予約投稿などの機能追加を予定しています。
     url: "/help/and-more/"
     btn_class: "btn--primary"

@@ -1,29 +1,40 @@
 ---
 layout: single
 permalink: /about/
-title: "About／アプリについて"
+title: "About – アプリについて"
 author: hidea
 author_profile: true
+skythrow_gallery:
+  - image_path: /assets/images/screenshot/v140/multiaccounts_signin_en.png
+    alt: "Multi Accounts"
+  - image_path: /assets/images/screenshot/v140/post_etc_en.png
+    alt: "Post"
+  - image_path: /assets/images/screenshot/v140/hashtags_en.png
+    alt: "Hashtags"
 ---
 
-
+{% include gallery id="skythrow_gallery" caption="SkyThrow screenshots on iOS." %}
 
 "SkyThrow" is a "post-only" client for the social network service "[Bluesky](https://bsky.app/)".
-It aims to make posting more convenient with multiple accounts, hashtags, and other features.<br />
+It aims to make posting more convenient with multiple accounts, hashtags, and other features.
+
+"[Help]({{ "/help" | relative_url }})" page is still under construction, but if you have any questions, please feel free to contact us via "[Feedback]({{ "/feedback" | relative_url }})".
+
 「SkyThrow」は、ソーシャルネットワーク「[Bluesky](https://bsky.app/)」向けの「投稿専用」クライアントアプリです。
 複数のアカウントの管理と切り替え、ハッシュタグ等の入力を機能的にして、Blueskyへの投稿をより手軽にすることを目指しています。
 
-"[Help]({{ "/help" | relative_url }})" page is still under construction, but if you have any questions, please feel free to contact us via "[Feedback]({{ "/feedback" | relative_url }})".<br />
 「[ヘルプ]({{ "/help" | relative_url }})」ページはまだ鋭意作成中となりますが、ご不明な点がありましたら「[フィードバック]({{ "/feedback" | relative_url }})」よりお気軽にお問い合わせください。
 
-## Creator／制作者
+## Creator – 制作者
 
-👈 Please see sidebar(or top banner).  
-👈 サイド（もしくは上部）がそうです。
+### 👈 hidea – ひであ
+Please see sidebar(or top banner).  
+サイド（もしくは上部）がそうです。
 
-👇 Other services in which the creator is involved.  
-👇 制作者がrukari、もしくは個人で関わっている他のサービスです。
-👇 rukariは、適当に緩くプロダクトをつくっているふたり集団です。
+### 👇 Products – プロダクト
+Other services in which the creator is involved.  
+制作者がrukari、もしくは個人で関わっている他のサービスです。
+rukariは、適当に緩くプロダクトをつくっているふたり集団です。
 
 * [新刊.net (new-book net)](https://sinkan.net/)  
 New publication release date checker (Japan only)  

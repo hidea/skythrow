@@ -13,5 +13,5 @@ draft_gallery:
 When cancel a post about to write, you can save it as a “Draft”.  
 Reply, Quotes, Images and Videos are also saved as drafts, but drafts cannot be restored once the subject post is deleted or the image or video is removed from the device.
 
-書きかけの投稿をキャンセルする時、「下書き」に保存することができます。  
+書きかけの投稿をキャンセルする時、「下書き」に保存できます。  
 リプライ、引用、画像や映像も下書きとして保存されますが、対象となる投稿が削除されたり、画像や映像がデバイスから削除されると下書きの復元はできません。

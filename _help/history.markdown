@@ -32,7 +32,7 @@ SkyThrowからの投稿は「履歴」に記録されます。
 
 You can reply to these histories and quote the posts.
 
-この履歴への返信、そして引用した投稿をすることができます。
+この履歴への返信、そして引用した投稿ができます。
 
 {% include gallery id="pinned_gallery" layout="third" %}
 

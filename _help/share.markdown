@@ -1,58 +1,65 @@
 ---
 permalink: /help/share/
 title: "Share – 共有"
+share_ios_gallery:
+  - image_path: /assets/images/screenshot/v140/post_sharebutton_en.png
+    alt: "Share button on iOS"
+  - image_path: /assets/images/screenshot/v140/share_en.png
+    alt: "Share menu on iOS"
+share_android_gallery:
+  - image_path: /assets/images/screenshot/v140/post_sharebutton_android_en.png
+    alt: "Share button on Android"
+  - image_path: /assets/images/screenshot/v140/post_share_android_en.png
+    alt: "Share menu on Android"
+share1_gallery:
+  - image_path: /assets/images/screenshot/share-base.png
+    alt: "Shar base"
+  - image_path: /assets/images/screenshot/share-x.png
+    alt: "Share to x"
+  - image_path: /assets/images/screenshot/share-line.png
+    alt: "Share to line"
+share2_gallery:
+  - image_path: /assets/images/screenshot/share-instagram.png
+    alt: "Share to instagram"
+  - image_path: /assets/images/screenshot/share-facebook.png
+    alt: "Share to facebook"
+setting_gallery:
+  - image_path: /assets/images/screenshot/v140/settings_en.png
+    alt: "Settings"
+  - image_path: /assets/images/screenshot/v140/settings_return_after_post_en.png
+    alt: "Settings - return after post"
 ---
 
-You can share posts to other apps before posting to Bluesky.  
-We have confirmed that you can share to 𝕏 (formerly Twitter) and LINE Talk with a photo.  
-Conversely, sharing to Facebook, Threads, Instagram, etc. is limited and unstable. Sharing of posts that do not include photos, posts that include multiple photos, or conversely posts that include text may not work.  
-Bluesky へ投稿する前の投稿を他のアプリへ共有できます。  
-𝕏（旧Twitter）、LINEトークへ写真付きで共有ができることを確認済みです。  
-逆に Facebook、Threads、Instagram などへの共有は制限があり安定しません。写真を含まない投稿や複数枚の写真を含んだ投稿、逆にテキストを含む投稿の共有はうまくできない場合があります。
+SkyThrow supports sharing posts from the Android and iOS sharing menus to other apps.
 
-SkyThrow's original post.  
-SkyThrow の元の投稿。  
-<img src="{{ "/assets/images/screenshot/share-base.png" | relative_url }}" alt="image" width="300">
+投稿をAndroid、iOSの共有メニューから他のアプリへ共有できます。
 
-The "Share" selection screen.  
-「共有」の選択画面。  
-<img src="{{ "/assets/images/screenshot/share-select.png" | relative_url }}" alt="image" width="300">
+{% include gallery id="share_ios_gallery" layout="third" caption="Share on iOS" %}
 
-Sharing to 𝕏 (formerly Twitter).  
-All photos, hashtags, and text are shared as is.  
-𝕏（旧Twitter）への共有。  
-写真、ハッシュタグ、テキストすべてがそのまま共有される。  
-<img src="{{ "/assets/images/screenshot/share-x.png" | relative_url }}" alt="image" width="300">
+{% include gallery id="share_android_gallery" layout="third" caption="Share on Android" %}
 
-Sharing to LINE Talk (The shared content is different)  
-All photos, hashtags, and text are shared as is.  
-LINEトークへの共有（共有内容は違っています）  
-写真、ハッシュタグ、テキストすべてがそのまま共有される。  
-<img src="{{ "/assets/images/screenshot/share-line.png" | relative_url }}" alt="image" width="300">
+We have confirmed that it is possible to share photos on SNS apps such as X and LINE Talk.  
+It is also possible to share on mixi2, Facebook, Threads, Instagram, etc., but there are restrictions and it is not stable. There are cases where it is not possible to share posts that do not include photos, posts that include multiple photos, or posts that include text.
 
-Sharing to Facebook.  
-Photos are shared, one hashtag, no text is shared.  
-Facebook への共有。  
-写真は共有され、ハッシュタグはひとつ、テキストは共有されない。  
-<img src="{{ "/assets/images/screenshot/share-facebook.png" | relative_url }}" alt="image" width="300">
+SNSアプリでは、𝕏、LINEトークへ写真付きで共有できました。  
+mixi2、Facebook、Threads、Instagramなどへも共有できましたが制限もあり安定しません。写真を含まない投稿や複数枚の写真を含んだ投稿、逆にテキストを含む投稿の共有はうまくできない場合があります。
 
-Sharing to Instagram.  
-Posts that do not include a photo cannot be shared. Hashtags and text will not be shared.  
-A single photo without text or hashtags will be considered a normal post. Otherwise, it can be saved as a draft as a "reel video".  
-Instagram への共有。  
-写真を含まない投稿は共有できない。ハッシュタグ、テキストは共有されない。  
-テキスト、ハッシュタグを含まない1枚の写真は通常の投稿となる。その他の場合は「リール動画」として下書き保存することができる。  
-<img src="{{ "/assets/images/screenshot/share-instagram.png" | relative_url }}" alt="image" width="300">
+{% include gallery id="share1_gallery" layout="third" %}
 
-Sharing to Threads.  
-Only the first photo is shared, no hashtags or text. Sharing itself is not stable and sometimes freezes.  
-Threads への共有。  
-写真は先頭の1枚のみ、ハッシュタグ、テキストは共有されない。共有自体が安定せず、フリーズすることがある。  
-<img src="{{ "/assets/images/screenshot/share-threads.png" | relative_url }}" alt="image" width="300">
+The original post and X, sharing to LINE.
 
-If you turn off "Return home after posting" in "Settings", you will be able to share after posting to Bluesky.  
-「設定」にある「投稿したらホームに戻る」をオフにすれば、Bluesky への投稿後に共有することができるようになります。
+元となる投稿と𝕏、LINEへの共有。
 
+{% include gallery id="share2_gallery" layout="third" %}
 
-Under construction.  
-工事中
+Share on instagram and Facebook.
+
+instagram、Facebookへの共有。
+
+{% include gallery id="setting_gallery" layout="third" %}
+
+By default, SkyThrow will return you to the home screen after posting to Bluesky.
+To change this, go to Settings and change the “Return to home after posting” setting to “Do not return” or “Confirm”.
+
+SkyThrowの初期設定ではBlueskyへ投稿するとホーム画面に戻ってしまいます。
+そのため投稿前に共有する必要がありますが、「設定」の「投稿後はホームに戻る」を「戻らない」「確認する」に変更することでBlueskyへ投稿した後に共有できるようになります。

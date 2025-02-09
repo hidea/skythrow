@@ -21,7 +21,7 @@ Multiple accounts can be registered and switched with a tap on the home page.
 You can also switch on the fly by tapping the avatar icon in post.
 
 複数アカウントを管理してタップひとつで切り替え。
-投稿でもアバターアイコンをタップすればその場で切り替えることができます。
+投稿でもアバターアイコンをタップすればその場で切り替えられます。
 
 {% include gallery id="theme_gallery" layout="third" %}
 

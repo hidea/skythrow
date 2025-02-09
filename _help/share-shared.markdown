@@ -17,7 +17,7 @@ shared_gallery:
 
 You can share your postings to other apps such as X using the Android / iOS share function.
 
-Android / iOS の共有機能を利用して、𝕏やmixi2など他のアプリへ投稿内容を共有することができます。
+Android / iOS の共有機能を利用して、𝕏やmixi2など他のアプリへ投稿内容を共有できます。
 
 ### Shared – アプリからの共有
 

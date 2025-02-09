@@ -20,7 +20,7 @@ feature_row:
     title: "Multi account"
     excerpt: >
       Multiple accounts can be registered and switched with a single tap on the home page.<br /><br />
-      複数のアカウントを管理して、タップひとつで切り替えることができます。。
+      複数のアカウントを管理して、タップひとつで切り替えられます。
     url: "/help/multi-account/"
     btn_class: "btn--primary"
     btn_label: "Learn more"

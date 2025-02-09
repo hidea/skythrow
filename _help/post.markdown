@@ -84,6 +84,6 @@ If you cancel a post in progress, you can save it as a draft.
 Tap the avatar icon to switch accounts even when you are in the middle of a post.  
 Posts can be shared to other apps by tapping the share button in the lower right corner. It is also convenient for multi-posting to supported SNS apps.
 
-投稿を書きかけでキャンセルすると下書きに保存することができます。  
-アバターアイコンをタップすると書きかけでもアカウントを切り替えることができます。  
-投稿は右下の共有ボタンから他のアプリへ共有することができます。対応するSNSアプリへのマルチポストにも便利です。
+投稿を書きかけでキャンセルすると下書きに保存できます。  
+アバターアイコンをタップすると書きかけでもアカウントを切り替えられます。  
+投稿は右下の共有ボタンから他のアプリへ共有できます。対応するSNSアプリへのマルチポストにも便利です。

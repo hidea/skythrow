@@ -37,6 +37,8 @@ Multiple tags can be grouped together and added to a post at once.
 タグは事前に登録して管理できますし、投稿に含まれているタグも自動で登録されます。
 複数タグをグループにまとめれば、まとめて投稿へ追加することも。
 
+ - [Edit hashtags – ハッシュタグ編集]({{ "/help/edit-hashtag/" | relative_url }})
+
 ### Input Support – 入力サポート
 
 {% include gallery id="support_gallery" layout="third" %}

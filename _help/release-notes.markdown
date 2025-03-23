@@ -3,6 +3,20 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2025.3.23 ver.1.4.1
+  - Video upload 3 minutes and 100MB support
+  - Reply limit “Your followers” support
+  - Fixed some posts displayed probrem in the quote or history
+  - Fixed sp spaces (like U+3000) to be used as hashtag separators
+  - Fixed some bugs
+
+  - ビデオのアップロード制限緩和、3分、100MBに対応
+  - リプライ制限「フォローしているユーザー」に対応
+  - 一部の投稿の引用、履歴が表示できない不具合を修正
+  - 全角空白（U+3000）がハッシュタグの区切りになるよう修正
+  - 投稿編集中、他のアプリからの共有が受け取れない問題を修正
+  - 投稿編集中、ボトムバーの「アカウント」でキャンセル確認されない問題を修正
+
 - 2025.2.7 ver.1.4.0
   - Added “Drafts”
   - Added “History”

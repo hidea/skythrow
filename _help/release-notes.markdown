@@ -3,6 +3,18 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2026.1.3 ver.1.5.0
+
+  - Added support for creating thread posts.
+  - Split more than 4 images or long text into threads automatically.
+  - Fixed a layout issue in the bottom sheet when editing the reply target.
+  - Fixed the transition to the review page.
+
+  - スレッド投稿の作成に対応しました
+  - 4 枚を超える複数画像、長文テキストをスレッドに分割することができます
+  - 返信対象を編集するボトムシートの表示崩れを修正しました
+  - レビューページへの遷移を修正しました
+
 - 2025.12.4 ver.1.4.2
 
   - Added auto-save feature for draft

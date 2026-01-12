@@ -3,6 +3,18 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2026.1.13 ver.1.5.2
+
+  - Fixed replies to a thread in history were not correctly added to the original
+  - Added account filtering for history
+  - Improved sharing failures when sending medias
+  - Replaced the loading indicator
+
+  - 履歴のスレッドへの返信がスレッドだと元の履歴に正しく追加されない問題を修正
+  - 履歴のアカウント絞り込みを追加
+  - 複数メディアなどで失敗することがあった共有を改善
+  - ローディングを変更
+
 - 2026.1.3 ver.1.5.0
 
   - Added support for creating thread posts.

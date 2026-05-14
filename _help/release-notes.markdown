@@ -3,8 +3,20 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
-- 2026.1.13 ver.1.5.2
+- 2026.5.14 ver.1.5.3
+  - Expanded supported image upload limits to match the official spec: max size 2MB, max resolution 4000×4000 px
+  - Added a hashtag pinning feature
+  - Fixed an issue where hashtags could be dropped from the 2nd and later posts in a thread
+  - Fixed an issue where hashtags were treated as distinct based on letter case when checking for duplicates
+  - Fixed an issue where languages could be selected without limit; now capped at 3
 
+  - 投稿可能な画像のサイズを公式に合わせて最大サイズ2MB、解像度制限を4000×4000ピクセルに拡張
+  - ハッシュタグ固定機能を追加
+  - スレッドの2件目以降にハッシュタグが付与されないことがある不具合を修正
+  - ハッシュタグを大文字小文字別々に重複判定していた問題を修正
+  - 言語選択が無制限にできていた問題を修正、3個までに制限
+
+- 2026.1.13 ver.1.5.2
   - Fixed replies to a thread in history were not correctly added to the original
   - Added account filtering for history
   - Improved sharing failures when sending medias
@@ -16,7 +28,6 @@ title: "Release notes – リリースノート"
   - ローディングを変更
 
 - 2026.1.3 ver.1.5.0
-
   - Added support for creating thread posts.
   - Split more than 4 images or long text into threads automatically.
   - Fixed a layout issue in the bottom sheet when editing the reply target.
@@ -28,7 +39,6 @@ title: "Release notes – リリースノート"
   - レビューページへの遷移を修正しました
 
 - 2025.12.4 ver.1.4.2
-
   - Added auto-save feature for draft
   - Enhanced hashtag input support
   - Sharing now includes reply and quote URLs
@@ -48,7 +58,6 @@ title: "Release notes – リリースノート"
   - atproto.dart v.1.x.x に対応
 
 - 2025.3.23 ver.1.4.1
-
   - Video upload 3 minutes and 100MB support
   - Reply limit “Your followers” support
   - Fixed some posts displayed probrem in the quote or history
@@ -63,7 +72,6 @@ title: "Release notes – リリースノート"
   - 投稿編集中、ボトムバーの「アカウント」でキャンセル確認されない問題を修正
 
 - 2025.2.7 ver.1.4.0
-
   - Added “Drafts”
   - Added “History”
     - Quote or Reply from history
@@ -83,7 +91,6 @@ title: "Release notes – リリースノート"
   - 全体的なレイアウトの改修
 
 - 2024.12.18 ver.1.3.3
-
   - Add aspect ratio for image and video displayed official client.
   - Add support content warnings to link card.
   - Improve of recent used hashtags.
@@ -97,7 +104,6 @@ title: "Release notes – リリースノート"
   - Android: 戻る操作で投稿の破棄を確認するよう修正
 
 - 2024.11.24 ver.1.3.2
-
   - Supports “Graphic Media” content warning label.
   - Removes Exif that was sometimes added to images.
   - Android: Fixed where the Video review sometimes rotated.
@@ -107,7 +113,6 @@ title: "Release notes – リリースノート"
   - Android: ビデオのレビュー表示が回転することがあった問題を修正
 
 - 2024.10.22 ver.1.3.1
-
   - Fixed problem with screen going dark when sign-in fails
   - Fixed where posting freezes if link card generation fails
   - Added support for signing in with an account that omits the domain of the hosting provider
@@ -120,7 +125,6 @@ title: "Release notes – リリースノート"
   - ハッシュタグ入力・編集画面でのソートに降順を追加
 
 - 2024.10.17 ver.1.3.0
-
   - Support video.
   - Support for setting up quoted post.
   - Modified progress indicator when posting.
@@ -135,7 +139,6 @@ title: "Release notes – リリースノート"
   - iOS18 で他アプリへの共有時に誤動作することがあった問題を修正
 
 - 2024.8.6 ver.1.2.3
-
   - Link card previews are now generated when input URL
   - Fixed link card gen failing for some sites
   - Changed text of confirmation to return to home after posting
@@ -155,7 +158,6 @@ title: "Release notes – リリースノート"
   - 各種ボトムシートの UI を変更して完了ボタンを追加
 
 - 2024.6.21 ver.1.2.2
-
   - Sign-in supports "hosting providers" other than bsky.social
   - Improved link card generation for sites configured in non UTF-8 encodings
 
@@ -163,7 +165,6 @@ title: "Release notes – リリースノート"
   - UTF-8 以外の文字コードで構成されたサイトのリンクカード生成を改善
 
 - 2024.6.11 ver.1.2.1
-
   - Support for posting only images and hashtags
   - Increased timeout when posting
   - Improved animation before and after editing images
@@ -181,7 +182,6 @@ title: "Release notes – リリースノート"
   - 一部の meta データを含むリンクカードの作成に失敗する不具合を修正
 
 - 2024.5.28 ver.1.2.0
-
   - Added image editing functionality, clipping, rotation.
   - Added "Remember who can reply" so that each account is remembered.
   - Also, "Remember posted language" has been changed to remember the language of each account.
@@ -198,7 +198,6 @@ title: "Release notes – リリースノート"
   - 他のアプリからの画像共有時に付帯するテキストが共有されないことがある問題を改善
 
 - 2024.5.22 ver.1.1.2
-
   - Fixed ALT text (alternative text) for images was not always set.
   - Fixed "Remember posted language" in settings did not work in some cases.
 
@@ -206,7 +205,6 @@ title: "Release notes – リリースノート"
   - 設定の「投稿した言語を記憶」が機能しないことがあった問題を修正
 
 - 2024.5.19 ver.1.1.1
-
   - Fixed an issue where hashtags written directly in a sentence would not be used.
   - Fixed an issue where the cursor moves to the end of a sentence when pasting in the middle of a sentence.
   - Fixed an issue where hashtags, handles, and groups with # and @ could be registered.
@@ -218,7 +216,6 @@ title: "Release notes – リリースノート"
   - 他の Bluesky クライアントで問題が出ることがあった投稿時のコンテンツの警告（labels）処理を変更
 
 - 2024.5.16 ver.1.1.0
-
   - iOS ver. released
   - Fixed a problem when sharing to other apps
   - Fixed a problem when sharing from other apps
@@ -242,7 +239,6 @@ title: "Release notes – リリースノート"
   - タグ編集、選択画面での検索、ソートに対応
 
 - 2024.4.19 ver.1.0.1
-
   - Android ver. released
 
   - Android 版、新規リリース

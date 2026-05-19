@@ -1,0 +1,12 @@
+---
+const { compact = false } = Astro.props;
+---
+
+<div class="store-buttons">
+  <a href="https://play.google.com/store/apps/details?id=com.rukari.skythrowApp" aria-label="Get it on Google Play">
+    <img src="/assets/images/google-play-badge.png" alt="Get it on Google Play" style={`height:${compact ? 48 : 58}px;width:auto;`} />
+  </a>
+  <a href="https://apps.apple.com/us/app/skythrow/id6478918510" aria-label="Download on the App Store">
+    <img src="/assets/images/Download_on_the_App_Store_Badge.svg" alt="Download on the App Store" style={`height:${compact ? 42 : 52}px;width:auto;`} />
+  </a>
+</div>

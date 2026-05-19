@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ReleaseList from "../../components/ReleaseList.astro";
+---
+
+<BaseLayout title="SkyThrow | Bluesky posting only client" lang="en" path="/en/">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bluesky posting only client</p>
+        <h1>SkyThrow</h1>
+        <p class="lead">
+          SkyThrow is a posting-only Bluesky client. Multi-account and hashtag support makes posting faster and more focused.
+          iOS / Android app now available.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/en/install/">Install App</a>
+          <a class="button secondary" href="/en/history/">Release History</a>
+        </div>
+      </div>
+      <figure class="hero-showcase">
+        <img src="/assets/images/screenshot/v140/multiaccounts_en.png" alt="SkyThrow multi-account screen" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Features</p>
+      <h2>Post with less friction.</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="/assets/images/home-multiaccount-feature.png" alt="Multi account" />
+          <div>
+            <h3>Multi account</h3>
+            <p>Register multiple accounts and switch between them with a single tap.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-hashtag-feature.png" alt="#hashtag support" />
+          <div>
+            <h3>#hashtag support</h3>
+            <p>Save frequently used hashtags and insert them quickly for each post.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-andmore-feature.png" alt="More features" />
+          <div>
+            <h3>& more...</h3>
+            <p>More posting-focused features are planned, including location and scheduled posting.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Latest update</p>
+        <h2>Release history</h2>
+        <p class="lead">Add one release entry to the release data and the site updates automatically.</p>
+      </div>
+      <ReleaseList lang="en" limit={1} />
+    </div>
+  </section>
+</BaseLayout>

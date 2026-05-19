@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { helpPages } from "../../../data/help.js";
+
+export function getStaticPaths() {
+  return Object.keys(helpPages).map((slug) => ({ params: { slug } }));
+}
+
+const page = helpPages[Astro.params.slug];
+---
+
+<BaseLayout title={`${page.title.en} | SkyThrow`} lang="en" path={`/en/help/${Astro.params.slug}/`}>
+  <section class="text-page">
+    <p class="eyebrow">Help</p>
+    <h1>{page.title.en}</h1>
+    <div class="gallery-strip">
+      {page.images.map((image) => <img src={image} alt="" />)}
+    </div>
+    <div class="policy-card">
+      {page.body.en.map((paragraph) => <p>{paragraph}</p>)}
+    </div>
+  </section>
+</BaseLayout>

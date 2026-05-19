@@ -1,0 +1,40 @@
+[
+  {
+    "version": "1.5.3",
+    "date": "2026-05-19",
+    "platforms": ["iOS", "Android"],
+    "title": {
+      "ja": "最新バージョンを公開中",
+      "en": "Latest version available"
+    },
+    "changes": {
+      "ja": [
+        "投稿専用クライアントとしての基本機能を改善しました。",
+        "マルチアカウントとハッシュタグまわりの使い勝手を調整しました。"
+      ],
+      "en": [
+        "Improved core posting features.",
+        "Refined multi-account and hashtag workflows."
+      ]
+    }
+  },
+  {
+    "version": "1.4.0",
+    "date": "2024-05-14",
+    "platforms": ["Android"],
+    "title": {
+      "ja": "Android版を公開",
+      "en": "Android version released"
+    },
+    "changes": {
+      "ja": [
+        "Bluesky投稿専用クライアント SkyThrow のAndroid版を公開しました。",
+        "マルチアカウントとハッシュタグに対応しました。"
+      ],
+      "en": [
+        "Released the Android version of SkyThrow, a posting-only Bluesky client.",
+        "Added support for multi-account posting and hashtags."
+      ]
+    }
+  }
+]

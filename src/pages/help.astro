@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const items = [
+  ["インストール", "/install/", "ストアリンクとQRコードからアプリを入手できます。"],
+  ["複数アカウント", "/help/multi-account/", "複数アカウントの切り替え方を確認できます。"],
+  ["ハッシュタグ", "/help/hashtag/", "よく使うハッシュタグの登録と利用方法です。"],
+  ["投稿", "/help/post/", "投稿画面の基本操作です。"],
+  ["共有", "/help/share/", "他アプリからSkyThrowへ共有して投稿する方法です。"],
+  ["設定", "/help/settings/", "表示や投稿後の挙動などを調整します。"],
+];
+---
+
+<BaseLayout title="ヘルプ | SkyThrow" lang="ja" path="/help/">
+  <section class="text-page">
+    <p class="eyebrow">Help</p>
+    <h1>ヘルプ</h1>
+    <p class="lead">SkyThrow の使い方を目的から探せます。</p>
+    <div class="help-grid">
+      {
+        items.map(([title, href, body]) => (
+          <a class="help-card" href={href}>
+            <h3>{title}</h3>
+            <p>{body}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

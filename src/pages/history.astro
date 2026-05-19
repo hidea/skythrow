@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ReleaseList from "../components/ReleaseList.astro";
+---
+
+<BaseLayout title="更新履歴 | SkyThrow" lang="ja" path="/history/">
+  <section class="text-page">
+    <p class="eyebrow">Release History</p>
+    <h1>更新履歴</h1>
+    <p class="lead">SkyThrow のバージョンごとの変更内容です。</p>
+    <div style="margin-top:32px">
+      <ReleaseList lang="ja" />
+    </div>
+  </section>
+</BaseLayout>

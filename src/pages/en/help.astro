@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const items = [
+  ["Install", "/en/install/", "Get the app from the store links or QR codes."],
+  ["Multi account", "/en/help/multi-account/", "Switch between multiple Bluesky accounts."],
+  ["Hashtags", "/en/help/hashtag/", "Save and insert frequently used hashtags."],
+  ["Post", "/en/help/post/", "Basic posting screen operations."],
+  ["Share", "/en/help/share/", "Share from other apps into SkyThrow."],
+  ["Settings", "/en/help/settings/", "Adjust appearance and posting behavior."],
+];
+---
+
+<BaseLayout title="Help | SkyThrow" lang="en" path="/en/help/">
+  <section class="text-page">
+    <p class="eyebrow">Help</p>
+    <h1>Help</h1>
+    <p class="lead">Find SkyThrow usage guides by task.</p>
+    <div class="help-grid">
+      {
+        items.map(([title, href, body]) => (
+          <a class="help-card" href={href}>
+            <h3>{title}</h3>
+            <p>{body}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

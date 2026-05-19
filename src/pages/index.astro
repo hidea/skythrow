@@ -1,0 +1,68 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ReleaseList from "../components/ReleaseList.astro";
+---
+
+<BaseLayout title="SkyThrow | Bluesky posting only client" lang="ja" path="/">
+  <div class="build-marker">Preview build 20260519-1557</div>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bluesky posting only client</p>
+        <h1>SkyThrow</h1>
+        <p class="lead">
+          投稿専用の Bluesky クライアントです。マルチアカウント、#ハッシュタグ 等の投稿をより手軽に。
+          iOS / Android app now available.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/install/">Install App</a>
+          <a class="button secondary" href="/history/">Release History</a>
+        </div>
+      </div>
+      <figure class="hero-showcase">
+        <img src="/assets/images/screenshot/v140/multiaccounts_jp.png" alt="SkyThrowのマルチアカウント画面" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Features</p>
+      <h2>投稿を、軽く、迷わず。</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="/assets/images/home-multiaccount-feature.png" alt="Multi account" />
+          <div>
+            <h3>Multi account</h3>
+            <p>複数のアカウントを管理して、タップひとつで切り替えられます。</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-hashtag-feature.png" alt="#hashtag support" />
+          <div>
+            <h3>#hashtag support</h3>
+            <p>よく使うハッシュタグを登録して、投稿毎に簡単に入力できます。</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-andmore-feature.png" alt="More features" />
+          <div>
+            <h3>& more...</h3>
+            <p>位置、予約投稿などの機能追加を予定しています。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Latest update</p>
+        <h2>更新履歴</h2>
+        <p class="lead">アプリ更新時は release data に追記するだけで、この履歴へ反映されます。</p>
+      </div>
+      <ReleaseList lang="ja" limit={1} />
+    </div>
+  </section>
+</BaseLayout>

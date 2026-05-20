@@ -3,6 +3,13 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2026.5.20 ver.1.5.4
+  - Fixed posts were submitted as text-only when image upload failed
+  - Fixed the app failed to navigate correctly when launched via "Share" from other apps
+
+  - 画像アップロードが失敗した際にテキストのみで投稿されてしまう不具合を修正
+  - 他アプリから「共有」で起動した際に画面遷移できないことがある不具合を修正
+
 - 2026.5.14 ver.1.5.3
   - Expanded supported image upload limits to match the official spec: max size 2MB, max resolution 4000×4000 px
   - Added a hashtag pinning feature

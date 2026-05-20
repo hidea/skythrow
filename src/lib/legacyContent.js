@@ -56,14 +56,18 @@ function escapeHtml(value) {
 }
 
 function localizeText(value = "", lang = "all") {
+  const latest = getLatestRelease();
+  let localized = value
+    .replaceAll("{{ latest_version }}", latest.version)
+    .replace(/ver\.\d+(?:\.\d+)*/g, `ver.${latest.version}`);
   if (lang === "ja") {
-    return value.replace(
+    return localized.replace(
       "サイド（もしくは上部）がそうです。",
       "制作者は hidea です。rukari / ソフトウェア開発、自転車(ブルベ)、ペンギン、ゆるキャン、ウマ娘 etc. / [rukari.com](https://rukari.com) / [Bluesky](https://bsky.app/profile/hidea.bsky.social) / [GitHub](https://github.com/hidea)",
     );
   }
   if (lang === "en") {
-    return value
+    return localized
       .replace("Google Form へ", "Open Google Form")
       .replace(
         "Please see sidebar(or top banner).",
@@ -144,6 +148,15 @@ export function renderReleaseNotes(limit, lang = "all") {
   const page = loadLegacyMarkdown("_help/release-notes.markdown", { lang });
   const entries = page.html.match(/<section class="release-entry">[\s\S]*?<\/section>/g) || [];
   return typeof limit === "number" ? entries.slice(0, limit).join("\n") : page.html;
+}
+
+export function getLatestRelease() {
+  const raw = fs.readFileSync(path.join(root, "_help/release-notes.markdown"), "utf8");
+  const match = raw.match(/^- (\d{4}\.\d{1,2}\.\d{1,2})\s+ver\.([^\s]+)/m);
+  return {
+    date: match?.[1] || "",
+    version: match?.[2] || "",
+  };
 }
 
 export function renderLegacyMarkdown(body, data = {}, options = {}) {

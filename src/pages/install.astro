@@ -1,12 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getLatestRelease } from "../lib/legacyContent.js";
+
+const latest = getLatestRelease();
 ---
 
 <BaseLayout title="インストール | SkyThrow" lang="ja" path="/install/">
   <section class="text-page">
     <p class="eyebrow">Install</p>
     <h1>インストール</h1>
-    <p class="lead">iOS / Android app now available. ver.1.5.3 を公開中です。</p>
+    <p class="lead">iOS / Android app now available. ver.{latest.version} を公開中です。</p>
     <div class="store-panel">
       <article class="store-card">
         <img class="qr" src="/assets/images/google-play-qr-code.png" alt="Google Play QR code" />

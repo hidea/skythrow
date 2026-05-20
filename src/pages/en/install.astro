@@ -1,12 +1,15 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getLatestRelease } from "../../lib/legacyContent.js";
+
+const latest = getLatestRelease();
 ---
 
 <BaseLayout title="Install | SkyThrow" lang="en" path="/en/install/">
   <section class="text-page">
     <p class="eyebrow">Install</p>
     <h1>Install</h1>
-    <p class="lead">iOS / Android app now available. Version 1.5.3 is available now.</p>
+    <p class="lead">iOS / Android app now available. Version {latest.version} is available now.</p>
     <div class="store-panel">
       <article class="store-card">
         <img class="qr" src="/assets/images/google-play-qr-code.png" alt="Google Play QR code" />

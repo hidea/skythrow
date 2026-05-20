@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/about.markdown", { lang: "ja" });
+---
+
+<BaseLayout title="About | SkyThrow" lang="ja" path="/about/">
+  <ContentPage eyebrow="About" title={page.title || "アプリについて"} html={page.html} />
+</BaseLayout>

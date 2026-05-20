@@ -1,23 +1,18 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { helpPages } from "../../../data/help.js";
+import ContentPage from "../../../components/ContentPage.astro";
+import { listLegacyHelp, loadLegacyMarkdown } from "../../../lib/legacyContent.js";
 
 export function getStaticPaths() {
-  return Object.keys(helpPages).map((slug) => ({ params: { slug } }));
+  return listLegacyHelp()
+    .filter((slug) => slug !== "help")
+    .map((slug) => ({ params: { slug } }));
 }
 
-const page = helpPages[Astro.params.slug];
+const page = loadLegacyMarkdown(`_help/${Astro.params.slug}.markdown`, { lang: "en" });
+const title = page.title || "Help";
 ---
 
-<BaseLayout title={`${page.title.en} | SkyThrow`} lang="en" path={`/en/help/${Astro.params.slug}/`}>
-  <section class="text-page">
-    <p class="eyebrow">Help</p>
-    <h1>{page.title.en}</h1>
-    <div class="gallery-strip">
-      {page.images.map((image) => <img src={image} alt="" />)}
-    </div>
-    <div class="policy-card">
-      {page.body.en.map((paragraph) => <p>{paragraph}</p>)}
-    </div>
-  </section>
+<BaseLayout title={`${title} | SkyThrow`} lang="en" path={`/en/help/${Astro.params.slug}/`}>
+  <ContentPage eyebrow="Help" title={title} html={page.html} />
 </BaseLayout>

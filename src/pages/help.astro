@@ -1,14 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { listHelpPages } from "../lib/legacyContent.js";
 
-const items = [
-  ["インストール", "/install/", "ストアリンクとQRコードからアプリを入手できます。"],
-  ["複数アカウント", "/help/multi-account/", "複数アカウントの切り替え方を確認できます。"],
-  ["ハッシュタグ", "/help/hashtag/", "よく使うハッシュタグの登録と利用方法です。"],
-  ["投稿", "/help/post/", "投稿画面の基本操作です。"],
-  ["共有", "/help/share/", "他アプリからSkyThrowへ共有して投稿する方法です。"],
-  ["設定", "/help/settings/", "表示や投稿後の挙動などを調整します。"],
-];
+const items = listHelpPages("ja");
 ---
 
 <BaseLayout title="ヘルプ | SkyThrow" lang="ja" path="/help/">
@@ -18,10 +12,10 @@ const items = [
     <p class="lead">SkyThrow の使い方を目的から探せます。</p>
     <div class="help-grid">
       {
-        items.map(([title, href, body]) => (
-          <a class="help-card" href={href}>
-            <h3>{title}</h3>
-            <p>{body}</p>
+        items.map((item) => (
+          <a class="help-card" href={`/help/${item.slug}/`}>
+            <h3>{item.title}</h3>
+            <p>既存の本文と画像を省略せず掲載しています。</p>
           </a>
         ))
       }

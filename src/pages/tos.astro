@@ -1,17 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/tos.markdown", { lang: "ja" });
 ---
 
 <BaseLayout title="利用規約 | SkyThrow" lang="ja" path="/tos/">
-  <section class="text-page">
-    <p class="eyebrow">Terms of Service</p>
-    <h1>利用規約</h1>
-    <div class="policy-card">
-      <p>本規約は、rukari.com / hidea が無料サービスとして提供するモバイル端末向けアプリ SkyThrow に適用されます。</p>
-      <p>本アプリをダウンロードまたは利用した時点で、本規約に同意したものとみなされます。本アプリの無断複製、改変、ソースコードの抽出、派生版の作成は禁止されています。</p>
-      <p>本アプリの一部機能はインターネット接続を必要とします。通信料金や第三者サービスの条件は利用者の責任で確認してください。</p>
-      <p>本規約に関する問い合わせは <a href="mailto:support@rukari.com">support@rukari.com</a> までお願いします。</p>
-      <p>Effective: 2024.4.4</p>
-    </div>
-  </section>
+  <ContentPage eyebrow="Terms of Service" title={page.title || "利用規約"} html={page.html} card />
 </BaseLayout>

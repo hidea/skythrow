@@ -1,15 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import ReleaseList from "../components/ReleaseList.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_help/release-notes.markdown", { lang: "ja" });
 ---
 
 <BaseLayout title="更新履歴 | SkyThrow" lang="ja" path="/history/">
   <section class="text-page">
     <p class="eyebrow">Release History</p>
-    <h1>更新履歴</h1>
-    <p class="lead">SkyThrow のバージョンごとの変更内容です。</p>
-    <div style="margin-top:32px">
-      <ReleaseList lang="ja" />
-    </div>
+    <h1>{page.title || "リリースノート"}</h1>
+    <p class="lead">SkyThrow のこれまでの更新内容を時系列で確認できます。</p>
+    <div class="content-body" set:html={page.html} />
   </section>
 </BaseLayout>

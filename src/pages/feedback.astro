@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/feedback.markdown", { lang: "ja" });
 ---
 
 <BaseLayout title="問い合わせ | SkyThrow" lang="ja" path="/feedback/">
-  <section class="text-page">
-    <p class="eyebrow">Feedback</p>
-    <h1>問い合わせ</h1>
-    <div class="policy-card">
-      <p>不具合報告や要望は Bluesky の公式アカウントへお寄せください。</p>
-      <p><a class="button" href="https://bsky.app/profile/skythrow.com">Open Bluesky</a></p>
-    </div>
-  </section>
+  <ContentPage eyebrow="Feedback" title={page.title || "フィードバック"} html={page.html} card />
 </BaseLayout>

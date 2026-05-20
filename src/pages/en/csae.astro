@@ -1,15 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/csae.markdown", { lang: "en" });
 ---
 
 <BaseLayout title="CSAE Policy | SkyThrow" lang="en" path="/en/csae/">
-  <section class="text-page">
-    <p class="eyebrow">CSAE Policy</p>
-    <h1>Child Sexual Abuse and Exploitation Policy</h1>
-    <div class="policy-card">
-      <p>SkyThrow strictly prohibits child sexual abuse and exploitation and does not tolerate related content or activities.</p>
-      <p>SkyThrow specializes in posting and does not store content. Content monitoring and enforcement are handled by the destination services, such as Bluesky.</p>
-      <p>The project complies with applicable laws and international standards and works to support child protection.</p>
-    </div>
-  </section>
+  <ContentPage eyebrow="CSAE Policy" title={page.title || "CSAE Policy"} html={page.html} card />
 </BaseLayout>

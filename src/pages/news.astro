@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/news.markdown", { lang: "ja" });
 ---
 
 <BaseLayout title="News | SkyThrow" lang="ja" path="/news/">
-  <section class="text-page">
-    <p class="eyebrow">News</p>
-    <h1>お知らせ</h1>
-    <div class="policy-card">
-      <p>SkyThrow の最新情報は Bluesky の公式アカウントでお知らせします。</p>
-      <p><a class="button" href="https://bsky.app/profile/skythrow.com">Open Bluesky</a></p>
-    </div>
-  </section>
+  <ContentPage eyebrow="News" title={page.title || "お知らせ"} html={page.html} />
 </BaseLayout>

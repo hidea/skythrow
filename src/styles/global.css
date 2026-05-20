@@ -99,7 +99,7 @@ img {
 }
 
 .menu-toggle {
-  margin-left: auto;
+  margin-left: 0;
   width: 40px;
   height: 40px;
   display: inline-grid;
@@ -167,8 +167,21 @@ img {
 }
 
 .lang-switch {
-  border-top: 1px solid var(--line);
-  margin-top: 4px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brand-dark);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 9px 11px;
+  white-space: nowrap;
+}
+
+.nav-lang {
+  margin-left: auto;
+  flex: 0 0 auto;
 }
 
 main {
@@ -177,17 +190,15 @@ main {
 
 .hero {
   color: #fff;
-  background:
-    linear-gradient(90deg, rgba(0, 41, 84, 0.54), rgba(0, 103, 180, 0.14)),
-    url("/assets/images/baseblue.jpg") center 58% / cover;
+  background: url("/assets/images/baseblue.jpg") center 58% / cover;
 }
 
 .hero-inner {
   min-height: 320px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 112px;
+  grid-template-columns: minmax(0, 1fr) minmax(84px, 92px);
   align-items: center;
-  gap: 14px;
+  gap: 10px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -226,7 +237,9 @@ p {
 }
 
 .hero h1 {
-  font-size: 3.2rem;
+  font-size: clamp(2.2rem, 12.5vw, 3.2rem);
+  overflow-wrap: normal;
+  white-space: nowrap;
   text-shadow: 0 2px 20px rgba(0, 24, 62, 0.28);
 }
 
@@ -281,7 +294,7 @@ p {
 
 .hero-showcase {
   width: 100%;
-  max-width: 112px;
+  max-width: 92px;
   justify-self: end;
   margin: 0;
   padding: 4px;
@@ -365,6 +378,13 @@ p {
   padding: 18px;
 }
 
+.store-card {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  gap: 16px;
+}
+
 .feature-card h3,
 .release-card h3,
 .help-card h3 {
@@ -435,7 +455,7 @@ p {
 .store-card .qr {
   width: 128px;
   border-radius: 8px;
-  margin-bottom: 16px;
+  margin: 0 auto;
 }
 
 .store-card .badge {
@@ -456,7 +476,6 @@ p {
 .version-status {
   display: flex;
   width: 100%;
-  max-width: 680px;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px 14px;
@@ -621,11 +640,18 @@ p {
   }
 
   .lang-switch {
-    border-top: 0;
+    border: 0;
     border-left: 1px solid var(--line);
-    margin-top: 0;
     margin-left: 8px;
-    padding-left: 12px;
+    padding: 10px 0 10px 12px;
+    border-radius: 0;
+    background: transparent;
+    color: var(--muted);
+    font-size: 0.94rem;
+  }
+
+  .nav-lang {
+    margin-left: 0;
   }
 
   .hero-inner {

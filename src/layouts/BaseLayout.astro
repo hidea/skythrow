@@ -59,6 +59,7 @@ const alternate = isJa
             <img src="/assets/images/88x88.png" alt="" />
             <span>SkyThrow</span>
           </a>
+          <a class="lang-switch nav-lang" href={alternate}>{isJa ? "English" : "日本語"}</a>
           <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-menu">
             <span class="menu-icon" aria-hidden="true"></span>
           </button>
@@ -70,7 +71,6 @@ const alternate = isJa
                 </a>
               ))
             }
-            <a class="lang-switch" href={alternate}>{isJa ? "English" : "日本語"}</a>
           </div>
         </nav>
       </header>

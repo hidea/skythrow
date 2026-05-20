@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { renderReleaseNotes } from "../lib/legacyContent.js";
+
+const latestRelease = renderReleaseNotes(1, "ja");
+---
+
+<BaseLayout title="SkyThrow | Bluesky posting only client" lang="ja" path="/">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bluesky posting only client</p>
+        <h1>SkyThrow</h1>
+        <p class="lead">
+          投稿専用の Bluesky クライアントです。マルチアカウント、#ハッシュタグ 等の投稿をより手軽に。
+          iOS / Android app now available.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/install/">Install App</a>
+          <a class="button secondary" href="/history/">Release History</a>
+        </div>
+      </div>
+      <figure class="hero-showcase">
+        <img src="/assets/images/screenshot/v140/multiaccounts_jp.png" alt="SkyThrowのマルチアカウント画面" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="section feature-band">
+    <div class="wrap">
+      <p class="eyebrow">Features</p>
+      <h2>複数アカウントの投稿を、軽く、迷わず。</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="/assets/images/home-multiaccount-feature.png" alt="Multi account" />
+          <div>
+            <h3>Multi account</h3>
+            <p>複数のアカウントを管理して、タップひとつで切り替えられます。</p>
+            <a href="/help/multi-account/">Learn more</a>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-hashtag-feature.png" alt="#hashtag support" />
+          <div>
+            <h3>#hashtag support</h3>
+            <p>よく使うハッシュタグを登録して、投稿毎に簡単に入力できます。</p>
+            <a href="/help/hashtag/">Learn more</a>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-andmore-feature.png" alt="More features" />
+          <div>
+            <h3>& more...</h3>
+            <p>位置、アカウントごとのテーマ、予約投稿などの機能追加を予定しています。</p>
+            <a href="/help/and-more/">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Latest update</p>
+        <h2>更新履歴</h2>
+        <p class="lead">全更新履歴を維持しています。最新の更新内容も省略せず表示します。</p>
+      </div>
+      <div class="release-list" set:html={latestRelease} />
+    </div>
+  </section>
+</BaseLayout>

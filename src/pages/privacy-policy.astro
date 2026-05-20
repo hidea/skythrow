@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/privacy-policy.markdown", { lang: "ja" });
+---
+
+<BaseLayout title="プライバシーポリシー | SkyThrow" lang="ja" path="/privacy-policy/">
+  <ContentPage eyebrow="Privacy Policy" title={page.title || "プライバシーポリシー"} html={page.html} card />
+</BaseLayout>

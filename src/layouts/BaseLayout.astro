@@ -1,0 +1,103 @@
+---
+import "../styles/global.css";
+
+const {
+  title = "SkyThrow",
+  description = "SkyThrow is a Bluesky client for posting only.",
+  lang = "ja",
+  path = "/",
+} = Astro.props;
+
+const isJa = lang === "ja";
+const prefix = isJa ? "" : "/en";
+const nav = isJa
+  ? [
+      ["ホーム", "/"],
+      ["アプリについて", "/about/"],
+      ["インストール", "/install/"],
+      ["履歴", "/history/"],
+      ["ヘルプ", "/help/"],
+      ["お知らせ", "/news/"],
+      ["問い合わせ", "/feedback/"],
+    ]
+  : [
+      ["Home", "/en/"],
+      ["About", "/en/about/"],
+      ["Install", "/en/install/"],
+      ["History", "/en/history/"],
+      ["Help", "/en/help/"],
+      ["News", "/en/news/"],
+      ["Feedback", "/en/feedback/"],
+    ];
+
+const alternate = isJa
+  ? path === "/"
+    ? "/en/"
+    : `/en${path}`
+  : path.replace(/^\/en/, "") || "/";
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="/assets/images/1200x630.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/assets/images/88x88.png" />
+    <link rel="alternate" hreflang={isJa ? "en" : "ja"} href={alternate} />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+          <a class="brand" href={prefix || "/"}>
+            <img src="/assets/images/88x88.png" alt="" />
+            <span>SkyThrow</span>
+          </a>
+          <button class="menu-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="main-menu">
+            <span class="menu-icon" aria-hidden="true"></span>
+          </button>
+          <div class="nav-links" id="main-menu">
+            {
+              nav.map(([label, href]) => (
+                <a href={href} aria-current={path === href ? "page" : undefined}>
+                  {label}
+                </a>
+              ))
+            }
+            <a class="lang-switch" href={alternate}>{isJa ? "English" : "日本語"}</a>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div>© SkyThrow</div>
+          <div>
+            <a href="https://bsky.app/profile/skythrow.com">Bluesky</a>
+            <a href="https://github.com/hidea">GitHub</a>
+            <a href={`${prefix}/privacy-policy/`}>Privacy Policy</a>
+            <a href={`${prefix}/tos/`}>Terms</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script>
+      const menuButton = document.querySelector(".menu-toggle");
+      const menu = document.querySelector("#main-menu");
+
+      menuButton?.addEventListener("click", () => {
+        const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+        menuButton.setAttribute("aria-expanded", String(!isOpen));
+        menu?.classList.toggle("is-open", !isOpen);
+      });
+    </script>
+  </body>
+</html>

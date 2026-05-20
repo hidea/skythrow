@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ContentPage from "../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/feedback.markdown", { lang: "ja" });
+---
+
+<BaseLayout title="問い合わせ | SkyThrow" lang="ja" path="/feedback/">
+  <ContentPage eyebrow="Feedback" title={page.title || "フィードバック"} html={page.html} card />
+</BaseLayout>

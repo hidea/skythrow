@@ -3,7 +3,7 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
-- 2026.5.19 ver.1.5.4
+- 2026.5.20 ver.1.5.4
   - Fixed posts were submitted as text-only when image upload failed
   - Fixed the app failed to navigate correctly when launched via "Share" from other apps
 

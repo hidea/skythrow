@@ -1,0 +1,9 @@
+---
+const { eyebrow, title, html, card = false } = Astro.props;
+---
+
+<section class="text-page">
+  {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+  <h1>{title}</h1>
+  <div class:list={["content-body", card && "policy-card"]} set:html={html} />
+</section>

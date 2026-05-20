@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { listLegacyHelp, loadLegacyMarkdown } from "../../lib/legacyContent.js";
+
+export function getStaticPaths() {
+  return listLegacyHelp()
+    .filter((slug) => slug !== "help")
+    .map((slug) => ({ params: { slug } }));
+}
+
+const page = loadLegacyMarkdown(`_help/${Astro.params.slug}.markdown`, { lang: "ja" });
+const title = page.title || "Help";
+---
+
+<BaseLayout title={`${title} | SkyThrow`} lang="ja" path={`/help/${Astro.params.slug}/`}>
+  <ContentPage eyebrow="Help" title={title} html={page.html} />
+</BaseLayout>

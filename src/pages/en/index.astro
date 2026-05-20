@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { renderReleaseNotes } from "../../lib/legacyContent.js";
+
+const latestRelease = renderReleaseNotes(1, "en");
+---
+
+<BaseLayout title="SkyThrow | Bluesky posting only client" lang="en" path="/en/">
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bluesky posting only client</p>
+        <h1>SkyThrow</h1>
+        <p class="lead">
+          SkyThrow is a posting-only Bluesky client. Multi-account and hashtag support makes posting faster and more focused.
+          iOS / Android app now available.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="/en/install/">Install App</a>
+          <a class="button secondary" href="/en/history/">Release History</a>
+        </div>
+      </div>
+      <figure class="hero-showcase">
+        <img src="/assets/images/screenshot/v140/multiaccounts_en.png" alt="SkyThrow multi-account screen" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="section feature-band">
+    <div class="wrap">
+      <p class="eyebrow">Features</p>
+      <h2>Post from multiple accounts with less friction.</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="/assets/images/home-multiaccount-feature.png" alt="Multi account" />
+          <div>
+            <h3>Multi account</h3>
+            <p>Multiple accounts can be registered and switched with a single tap on the home page.</p>
+            <a href="/en/help/multi-account/">Learn more</a>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-hashtag-feature.png" alt="#hashtag support" />
+          <div>
+            <h3>#hashtag support</h3>
+            <p>Manage hashtags to ease the entry of frequently used ones.</p>
+            <a href="/en/help/hashtag/">Learn more</a>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="/assets/images/home-andmore-feature.png" alt="More features" />
+          <div>
+            <h3>& more...</h3>
+            <p>Plans include location, themes for each account, and reserved postings.</p>
+            <a href="/en/help/and-more/">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Latest update</p>
+        <h2>Release history</h2>
+        <p class="lead">The complete release history is kept. The latest entry is shown without omission.</p>
+      </div>
+      <div class="release-list" set:html={latestRelease} />
+    </div>
+  </section>
+</BaseLayout>

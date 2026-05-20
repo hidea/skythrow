@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/tos.markdown", { lang: "en" });
+---
+
+<BaseLayout title="Terms of Service | SkyThrow" lang="en" path="/en/tos/">
+  <ContentPage eyebrow="Terms of Service" title={page.title || "Terms of Service"} html={page.html} card />
+</BaseLayout>

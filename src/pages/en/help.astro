@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { listHelpPages } from "../../lib/legacyContent.js";
+
+const items = listHelpPages("en");
+---
+
+<BaseLayout title="Help | SkyThrow" lang="en" path="/en/help/">
+  <section class="text-page">
+    <p class="eyebrow">Help</p>
+    <h1>Help</h1>
+    <p class="lead">Find SkyThrow usage guides by task.</p>
+    <div class="help-grid">
+      {
+        items.map((item) => (
+          <a class="help-card" href={`/en/help/${item.slug}/`}>
+            <h3>{item.title}</h3>
+            <p>Includes the existing text and images without omission.</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

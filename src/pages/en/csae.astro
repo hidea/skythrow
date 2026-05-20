@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ContentPage from "../../components/ContentPage.astro";
+import { loadLegacyMarkdown } from "../../lib/legacyContent.js";
+
+const page = loadLegacyMarkdown("_pages/csae.markdown", { lang: "en" });
+---
+
+<BaseLayout title="CSAE Policy | SkyThrow" lang="en" path="/en/csae/">
+  <ContentPage eyebrow="CSAE Policy" title={page.title || "CSAE Policy"} html={page.html} card />
+</BaseLayout>

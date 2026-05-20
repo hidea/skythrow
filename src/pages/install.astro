@@ -9,7 +9,11 @@ const latest = getLatestRelease();
   <section class="text-page">
     <p class="eyebrow">Install</p>
     <h1>インストール</h1>
-    <p class="lead">iOS / Android app now available. ver.{latest.version} を公開中です。</p>
+    <div class="version-status" aria-label={`公開中の最新版 ver.${latest.version}`}>
+      <span class="version-label">公開中の最新版</span>
+      <strong>ver.{latest.version}</strong>
+      <span class="version-copy">iOS / Android に対応しています。</span>
+    </div>
     <div class="store-panel">
       <article class="store-card">
         <img class="qr" src="/assets/images/google-play-qr-code.png" alt="Google Play QR code" />

@@ -9,7 +9,11 @@ const latest = getLatestRelease();
   <section class="text-page">
     <p class="eyebrow">Install</p>
     <h1>Install</h1>
-    <p class="lead">iOS / Android app now available. Version {latest.version} is available now.</p>
+    <div class="version-status" aria-label={`Latest available version ${latest.version}`}>
+      <span class="version-label">Latest version</span>
+      <strong>ver.{latest.version}</strong>
+      <span class="version-copy">Available for iOS and Android.</span>
+    </div>
     <div class="store-panel">
       <article class="store-card">
         <img class="qr" src="/assets/images/google-play-qr-code.png" alt="Google Play QR code" />

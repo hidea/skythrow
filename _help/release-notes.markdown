@@ -3,6 +3,21 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2026.6.13 ver.1.5.6
+  - Video limit raised: 100 MB > 300 MB
+  - Image attachments raised: 4 > 10, sharing to other apps remains 4
+  - Split one panorama image into up to 10 attachments
+  - Text split settings are saved as next defaults
+  - Added app rating to the left menu. Please rate us!!
+  - UI and waiting behavior improvements
+
+  - 動画サイズの上限、100MBから300MBに対応
+  - 画像添付の上限、4枚から10枚に対応（他のアプリへの共有はこれまでと同じ4枚までとなります）
+  - パノラマ分割、1枚の画像を最大10枚に分割して添付します
+  - テキスト分割の分割設定を保存して次回のデフォルトへ
+  - アプリ評価を左メニューへも項目として追加（評価、お願いします!!）
+  - いくつかのUI、待機動作の改善
+
 - 2026.5.20 ver.1.5.4
   - Fixed posts were submitted as text-only when image upload failed
   - Fixed the app failed to navigate correctly when launched via "Share" from other apps

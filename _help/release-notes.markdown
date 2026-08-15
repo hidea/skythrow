@@ -3,6 +3,23 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2026.8.15 ver.1.5.7
+  - Added cancellation for video posts
+  - Improved image processing speed and memory usage
+  - Fixed media posts getting stuck
+  - Fixed the media picker opening multiple times
+  - Improved character limits and posting checks for threads and quotes
+  - Fixed tag sorting
+  - Improved animations and UI
+
+  - 動画を含む投稿の処理中に、投稿をキャンセルできる機能を追加
+  - 画像処理を高速化・省メモリ化
+  - メディアを含む投稿処理が終わらなくなる問題を修正
+  - メディアピッカーが多重起動する問題を修正
+  - スレッドを含めた文字数制限と引用等の投稿可否判定を改善
+  - タグ選択の並び順が乱れていた問題を修正
+  - アニメーション、UIの改善
+
 - 2026.6.13 ver.1.5.6
   - Video limit raised: 100 MB > 300 MB
   - Image attachments raised: 4 > 10, sharing to other apps remains 4

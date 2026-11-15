@@ -3,7 +3,7 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
-- 2026.xx.xx ver.1.5.8
+- 2026.11.16 ver.1.5.8
   - Accounts can be selected right away without waiting for the connection to Bluesky
   - Posts and drafts can be edited for signed-out accounts or while offline (saved as drafts)
   - Image sharing with other apps raised: 4 > 10 (both receiving and sending)

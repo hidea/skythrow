@@ -3,6 +3,29 @@ permalink: /help/release-notes/
 title: "Release notes – リリースノート"
 ---
 
+- 2026.xx.xx ver.1.5.8
+  - Accounts can be selected right away without waiting for the connection to Bluesky
+  - Posts and drafts can be edited for signed-out accounts or while offline (saved as drafts)
+  - Image sharing with other apps raised: 4 > 10 (both receiving and sending)
+  - Fixed image posts failing or getting stuck on slow connections, and made them cancellable
+  - Fixed thread splitting exceeding the character limit or dropping posts
+  - Fixed thread posts shown as failed and posted twice
+  - Fixed reply links in threads with images or videos
+  - Fixed post order within threads in history
+  - Improved link card and quote handling, and draft saving
+  - Fixed sign-in and session refresh issues, and other bugs
+
+  - Blueskyへの接続を待たずに、すぐアカウントを選べるように
+  - 未ログインのアカウントやオフライン時も投稿の作成・下書きの編集ができるように（下書きとして保存）
+  - 他のアプリとの画像の共有を4枚から10枚に拡張（受け取り・送り出しとも）
+  - 遅い回線で画像付きの投稿が失敗したり終わらなくなる問題を修正、キャンセルにも対応
+  - スレッド分割で文字数の上限を超えたり、投稿が抜けたりする問題を修正
+  - スレッドの投稿が失敗と表示されて二重に投稿される問題を修正
+  - 画像・動画を含むスレッドで返信のつながりが正しくならない問題を修正
+  - 履歴のスレッド内で投稿の順番が入れ替わる問題を修正
+  - リンクカード・引用の扱い、下書きの保存を改善
+  - サインイン、セッション更新の不具合など、いくつかの不具合を修正
+
 - 2026.8.15 ver.1.5.7
   - Added cancellation for video posts
   - Improved image processing speed and memory usage
